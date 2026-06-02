@@ -1,17 +1,17 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --bg: #0f1117;
-  --bg2: #1a1d2e;
-  --bg3: #242740;
-  --border: #2e3250;
-  --text: #e8eaf6;
-  --text2: #9fa8da;
-  --accent: #7c83fd;
-  --accent2: #a78bfa;
-  --green: #4caf50;
-  --red: #ef5350;
-  --yellow: #ffd54f;
+  --bg: #f5f6fa;
+  --bg2: #ffffff;
+  --bg3: #eef0f7;
+  --border: #d0d4e8;
+  --text: #1a1d2e;
+  --text2: #4a5080;
+  --accent: #4c55d4;
+  --accent2: #6d3fc7;
+  --green: #2e7d32;
+  --red: #c62828;
+  --yellow: #e65100;
   --radius: 10px;
   --font: 'Segoe UI', system-ui, -apple-system, sans-serif;
 }
@@ -30,7 +30,7 @@ body {
 
 /* scrollbar */
 ::-webkit-scrollbar { width: 6px; height: 6px; }
-::-webkit-scrollbar-track { background: var(--bg2); }
+::-webkit-scrollbar-track { background: var(--bg3); }
 ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
 
 /* KaTeX overrides */
