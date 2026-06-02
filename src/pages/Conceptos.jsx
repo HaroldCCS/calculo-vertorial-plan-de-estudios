@@ -214,8 +214,8 @@ export default function Conceptos() {
 
       {/* Tabla de diferencias */}
       <h2>🔀 Tabla comparativa: Coordenadas</h2>
-      <div className="card" style={{ overflowX: 'auto' }}>
-        <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.88rem' }}>
+      <div className="card table-wrap">
+        <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.88rem', minWidth: 400 }}>
           <thead>
             <tr style={{ borderBottom: '2px solid var(--border)' }}>
               {['Propiedad','Rectangulares','Cilíndricas','Esféricas'].map(h => (

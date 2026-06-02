@@ -158,8 +158,8 @@ export default function Hacks() {
       {/* Tabla resumen */}
       <div style={{ marginTop:'2rem' }}>
         <h2>📊 Chuleta Rápida: Jacobianos</h2>
-        <div className="card" style={{ overflowX:'auto' }}>
-          <table style={{ width:'100%', borderCollapse:'collapse', fontSize:'0.88rem' }}>
+        <div className="card table-wrap">
+          <table style={{ width:'100%', borderCollapse:'collapse', fontSize:'0.88rem', minWidth:340 }}>
             <thead>
               <tr style={{ borderBottom:'2px solid var(--border)' }}>
                 {['Sistema','Jacobiano','dV / dA','Cuándo'].map(h=>(
@@ -186,7 +186,7 @@ export default function Hacks() {
         </div>
 
         <h2 style={{ marginTop:'1.5rem' }}>⏱ Plan de Tiempo (Parcial ~2h)</h2>
-        <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fit, minmax(160px, 1fr))', gap:'0.7rem' }}>
+        <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fit, minmax(140px, 1fr))', gap:'0.7rem' }}>
           {[
             { tiempo:'2 min', accion:'Lee TODAS las preguntas. Marca las fáciles.' },
             { tiempo:'1 min/pregunta', accion:'Preguntas de descarte rápido (∫∫1 dA, dominio, Jacobiano).' },
